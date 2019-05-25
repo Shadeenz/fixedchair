@@ -1,0 +1,174 @@
+#VRML_SIM R2019a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.200237516152186 0.9778121893055844 0.06154883890556211 0.4856646957717485
+  position 1.6151854446863834 0.6421869617777944 3.163777566279611
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+DEF MOLINO_1 Solid {
+  translation 0 0.30999999999999994 0
+  children [
+    DEF GR_OBJECT Group {
+      children [
+        DEF S_CYL1 Transform {
+          translation -0.06999999999999999 0.019999999999999997 0.06999999999999999
+          rotation 0.7071067811865475 0 0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL2 Transform {
+          translation -0.33 0.02 0.08
+          rotation 0.7071067811865475 0 -0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL3 Transform {
+          translation -0.06999999999999999 0.02 0.33
+          rotation -0.7071067811865475 0 0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF S_CYL4 Transform {
+          translation -0.33 0.02 0.33
+          rotation -0.7071067811865475 0 -0.7071067811865475 0.39
+          children [
+            Shape {
+              appearance PBRAppearance {
+              }
+              geometry Cylinder {
+                height 0.7
+                radius 0.03
+              }
+            }
+          ]
+        }
+        DEF Box Transform {
+          translation -0.20000000000000004 -0.09 0.21000000000000044
+          children [
+            Shape {
+              appearance PBRAppearance {
+                transparency 1
+              }
+              geometry Box {
+                size 0.4 0.4 0.4
+              }
+            }
+          ]
+        }
+        DEF Box1 Transform {
+          translation -0.20000000000000004 0.35000000000000014 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.15 0.05 0.15
+              }
+            }
+          ]
+        }
+        DEF Box2 Transform {
+          translation -0.05 0.08000000000000011 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box3 Transform {
+          translation -0.20012736471349254 0.08000000000000011 0.35988050026248397
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box4 Transform {
+          translation -0.3600000000000001 0.08000000000000011 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box5 Transform {
+          translation -0.19988050343316513 0.08000000000000011 0.04988059855361521
+          rotation 0 1 0 1.57
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Box {
+                size 0.01 0.05 0.28
+              }
+            }
+          ]
+        }
+        DEF Box1 Transform {
+          translation -0.20000000000000004 0.38000000000000017 0.20000000000000046
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0 0 0
+              }
+              geometry Cylinder {
+                height 0.01
+                radius 0.3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  name "solid(1)"
+  boundingObject USE GR_OBJECT
+}
